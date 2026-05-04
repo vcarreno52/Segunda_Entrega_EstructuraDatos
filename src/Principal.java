@@ -8,7 +8,7 @@ public class Principal {
         ArbolAVL arbol = new ArbolAVL(); 
         String rutaArchivo = "cedulas.txt";
 
-        // PROCESAMIENTO DEL ARCHIVO 
+        // Procesamiento de archivo
         File archivo = new File(rutaArchivo);
         if (!archivo.exists()) {
             System.out.println("Error fatal: El archivo 'cedulas.txt' no se encuentra en " + archivo.getAbsolutePath());
@@ -52,9 +52,9 @@ public class Principal {
                         arbol.buscar(sc.nextInt());
                         break;
                     case 3:
-                        Paciente jorge = new Paciente("Jorge", 10, 20);
+                        Paciente pedro = new Paciente("Pedro", 100, 1600);
                         ControladorJuego juego = new ControladorJuego();
-                        juego.iniciarHistoria(jorge, arbol);
+                        juego.iniciarHistoria(pedro, arbol);
                         break;
                     case 4:
                         System.out.println("Cerrando sistema...");
@@ -69,4 +69,3 @@ public class Principal {
         }
     }
 }
-        

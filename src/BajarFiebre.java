@@ -1,6 +1,6 @@
 public class BajarFiebre extends Procedimiento{
     public BajarFiebre() {
-        super ("BajarFiebre", 1,0);}
+        super ("BajarFiebre", -15,40);}
     @Override
     public String realizar(Paciente p) {
         p.setEnHospital(false); // Sin la palabra 'estado:'

@@ -1,6 +1,6 @@
 public class Amputar extends Procedimiento{
     public Amputar() {
-        super("Amputar", 3, 2);}
+        super("Amputar", 60, 1000);}
 
     @Override
     public String realizar(Paciente p) {

@@ -1,6 +1,6 @@
 public class PruebaSangre extends Procedimiento{
     public PruebaSangre(){
-        super("Prueba de sangre", 1,0);}
+        super("Prueba de sangre", 50,20);}
     
     @Override
     public String realizar(Paciente p) {
