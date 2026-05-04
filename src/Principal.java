@@ -39,7 +39,7 @@ public class Principal {
             System.out.println("2. Buscar paciente por numero de cedula");
             System.out.println("3. Iniciar juego con Jorge");
             System.out.println("4. Salir");
-            System.out.print("Opción: ");
+            System.out.print("Opcion: ");
             try {
                 op = sc.nextInt();
                 switch (op) {
@@ -60,10 +60,10 @@ public class Principal {
                         System.out.println("Cerrando sistema...");
                         break;
                     default:
-                        System.out.println("Opción inválida.");
+                        System.out.println("Opción invalida.");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Por favor, ingrese solo números.");
+                System.out.println("Por favor, ingrese solo numeros.");
                 sc.next();
             }
         }

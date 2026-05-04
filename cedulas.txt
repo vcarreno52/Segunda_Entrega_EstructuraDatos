@@ -24,7 +24,7 @@
 24514655,Luis,19,O-,Asma
 23123411,Kevin,81,O-,Ninguna
 89611032,Andrea,74,O-,Hipertensión
-12345678,Jorge,28,A-,Juega deportes,extremos
+12345678,Jorge,28,A-,Juega deportes extremos. Toma cuatro litros de agua
 14420062,Carlos,50,O-,Hipertensión
 18268900,Kevin,85,AB-,Ninguna
 17009583,Carlos,61,O-,Asma
