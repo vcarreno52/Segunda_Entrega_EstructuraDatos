@@ -37,8 +37,7 @@ public class Principal {
             System.out.println("\n   Menu");
             System.out.println("1. Listar todos los pacientes (ordenado por cedula)");
             System.out.println("2. Buscar paciente por numero de cedula");
-            System.out.println("3. Iniciar juego con Jorge");
-            System.out.println("4. Salir");
+            System.out.println("3. Salir");
             System.out.print("Opcion: ");
             try {
                 op = sc.nextInt();
@@ -49,14 +48,18 @@ public class Principal {
                         break;
                     case 2:
                         System.out.print("Ingrese la cedula a buscar: ");
-                        arbol.buscar(sc.nextInt());
-                        break;
-                    case 3:
+                        int cedulaIngresada = sc.nextInt();
+                        arbol.buscar(cedulaIngresada);
+                            if (cedulaIngresada == 12345678){
                         Paciente pedro = new Paciente("Pedro", 100, 1600);
                         ControladorJuego juego = new ControladorJuego();
                         juego.iniciarHistoria(pedro, arbol);
+                    } else {
+                                System.out.println("Error");
+                            }
                         break;
-                    case 4:
+          
+                    case 3:
                         System.out.println("Cerrando sistema...");
                         break;
                     default:
